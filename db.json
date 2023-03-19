@@ -1,0 +1,63 @@
+{
+  "anuncios": [
+    {
+      "id": "1",
+      "imagen": "https://img.remediosdigitales.com/e676ed/opel-corsa-motorpasion-110/1366_2000.jpg",
+      "nombre": "se busca coche",
+      "descripcion": "nuevo",
+      "precio": "15000",
+      "compra_venta": "compra",
+      "user_id": "1"
+    },
+    {
+      "id": "2",
+      "imagen": "https://www.km77.com/images/medium/0/1/4/5/01-baja-ext-kia-ceed-t-gdi-5p-2018.340145.jpg",
+      "nombre": "se busca moto",
+      "descripcion": "semi-nuevo",
+      "precio": "8000",
+      "compra_venta": "se vende",
+      "user_id": "1"
+    },
+    {
+      "id": "3",
+      "imagen": "",
+      "nombre": "sombrilla de playa",
+      "descripcion": "segunda mano",
+      "precio": "20",
+      "compra_venta": "compra",
+      "user_id": "3"
+    },
+    {
+      "imagen": "",
+      "nombre": "suzuki",
+      "descripcion": "se vende moto",
+      "precio": "11111",
+      "compra_venta": "venta",
+      "userId": 1,
+      "updatedAt": "2023-03-18T23:11:06.250Z",
+      "id": "lX2V6B_"
+    },
+    {
+      "imagen": "",
+      "nombre": "Lancha a motor",
+      "descripcion": "se vende lancha",
+      "precio": "95000",
+      "compra_venta": "venta",
+      "userId": 2,
+      "updatedAt": "2023-03-18T23:59:54.801Z",
+      "id": "FOFFU6E"
+    }
+  ],
+  "users": [
+    {
+      "username": "mjserrano89@gmail.com",
+      "password": "$2b$10$S6I8wIamj/OmKIfR5uJbMOH2cMY2NUDQU8rWz2i67kgbBP5LCeVC6",
+      "id": 1
+    },
+    {
+      "username": "mj@serrano.com",
+      "password": "$2b$10$HlOTiTN3PWUThBku30UrDucaHSbWzrMKy6qW5jQUPIfbujKFtXH4C",
+      "id": 2
+    }
+  ]
+}

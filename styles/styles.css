@@ -1,0 +1,67 @@
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #7e5858;
+}
+
+a:hover {
+    color: #043b41
+}
+
+form {
+    margin-left: 1em;
+    margin-top: 1em;
+}
+label{
+	margin:10px 0 13px 0;
+	padding:0px;
+	display:block;
+	font-weight: bold;
+}
+input[type=text], 
+input[type=email],
+input[type=password] {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border:1px solid #BEBEBE;
+	padding: 7px;
+	margin:0px;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;	
+}
+input[type=text]:focus, 
+input[type=email]:focus,
+input[type=password]:focus {
+	-moz-box-shadow: 0 0 8px #7e5858;
+	-webkit-box-shadow: 0 0 8px #7e5858;
+	box-shadow: 0 0 8px #7e5858;
+	border: 1px solid #7e5858;
+}
+
+button {
+    margin-top: 1em;
+	background: #7e5858;
+	padding: 8px 15px 8px 15px;
+	border: none;
+	color: #fff;
+}
+button:hover{
+	background: #043b41;
+	box-shadow:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+}
+.required{
+	color:red;
+}
+
+.anuncio {
+    border: 2px solid black;
+    padding: 2em;
+    margin-bottom: 3em;
+    border-radius: 5%;
+}
