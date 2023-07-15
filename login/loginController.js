@@ -12,10 +12,10 @@ export function loginController(formLogin) {
         const spinnerElement = spinnerSectionElement.querySelector('.spinner');
         if(!isEmailValid(emailElement.value)) {
             alert('Email no es correcto')
-            spinnerElement.classList.add('hide');
         }else{
             logUser(formLogin)
         }
+        spinnerElement.classList.add('hide');
     })
 
     async function logUser(formLogin) {

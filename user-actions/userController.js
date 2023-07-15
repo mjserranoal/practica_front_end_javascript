@@ -18,7 +18,7 @@ export function userController(userActionElement) {
         window.location.reload()
         })
     } else{
-        const createAnuncioElement = userActionElement.querySelector("#createAnuncioLink")
+        const createAnuncioElement = userActionElement.querySelector("#crearAnuncioLink")
         createAnuncioElement.remove()
         closeSessionElement.remove()
     }

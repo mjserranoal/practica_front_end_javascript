@@ -20,6 +20,7 @@ label{
 }
 input[type=text], 
 input[type=email],
+input[type=number],
 input[type=password] {
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;

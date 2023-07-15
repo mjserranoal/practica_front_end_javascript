@@ -22,10 +22,11 @@
         <input type="text" name="descripcion" id="descripcion" required>
         <br>
         <label for="precio">Precio</label>
-        <input type="text" name="precio" id="precio" required>
+        <input type="number" name="precio" id="precio" required>
         <br>
-        <label for="compra_venta">Compra-venta</label>
-        <input type="text" name="compra_venta" id="compra_venta" required>
+        <label for="compra_venta">Compra/Venta</label>
+        <input type="radio" name="compra_venta" value="compra"> Compra<br>
+        <input type="radio" name="compra_venta" value="venta"> Venta<br>
         <br>
         
         <button type="submit">Crear</button>

@@ -19,13 +19,12 @@ export const anuncioDetailController = async(anuncioDetailElement, anuncioId) =>
     function manageDelete(anuncio, anuncioDetailElement) {
         const token = localStorage.getItem("token")   
         const deleteButton = anuncioDetailElement.querySelector('#deleteAnuncio')
-
         if(!token){
             deleteButton.remove()
         }else {
             const infoToken = decodeToken(token)
             
-            if(anuncio.user_id == infoToken.userId) {
+            if(anuncio.userId == infoToken.userId) {
                 deleteButton.addEventListener('click', async () => {
                     const answer = confirm("¿estás seguro que quieres borrar el anuncio?")
                     if(answer) {
